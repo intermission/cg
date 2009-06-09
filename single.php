@@ -64,9 +64,10 @@
 
 <?php /* --- Tabular Data --- */ ?>	
 
+<span class="table-title"><strong>Torture Test: Brewing Six Doubles</strong></span>
+
 <table class="tabular-data blog-table" >
     <thead>
-		<h3 class="table-title"><strong>Torture Test: Brewing Six Doubles</strong></h3>
     	<tr>
         	<th scope="col"></th>
             <th scope="col">Shot 1</th>
@@ -108,10 +109,10 @@
     </tbody>
 </table>
 
+<span class="table-title"><strong>Steaming Times, Milk to 69C (155F)</strong></span>
 
 <table class="tabular-data blog-table" >
     <thead>
-		<h3 class="table-title"><strong>Steaming Times, Milk to 69C (155F)</strong></h3>
     	<tr>
         	<th scope="col"></th>
             <th scope="col">Test 1</th>
@@ -154,14 +155,19 @@
             <td>54.8 sec</td>
             <td>n/a</td>
             <td>n/a</td>
-        	<td><img src="images/ffx3.jpg"></td>
+        	<td><img src="images/ffx3.jpg" /></td>
         </tr>
     </tbody>
 </table>
 
+<p>The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. <span class="pullquote-right"><span class="quote-top">&quot;</span><strong>A stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso.</strong><span class="quote-bottom">&quot;</span></span>The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. It appears on the right side. The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list.</p>
+
+<p>The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. It appears on the right side. The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list.</p>
 
 
-<p>The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip and provide much needed espresso. There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. And I indulged in one of their amazing scones. A new fan of Zoka Coffee is my three year old boy, Sal.
+<blockquote>The drive from Vancouver, Canada seemed to take forever. A stop at Greenlake Zoka Coffee House location in Seattle helped break up the trip.</blockquote>
+
+<p>There were so many places on our list to stop, but time was tight. Zoka always tops my list. The barista there, without question, was passionate enough about their craft to redo the espresso until perfection. And I indulged in one of their amazing scones. A new fan of Zoka Coffee is my three year old boy, Sal.
 
 		<?php /* --- Single Right Aligned Image --- */ ?>	
 
@@ -171,6 +177,8 @@
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -187,6 +195,8 @@
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -209,6 +219,8 @@ The drive from Vancouver, Canada seemed to take forever. But a stop at Greenlake
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -234,6 +246,8 @@ I really looked forward to seeing some of my old Portland friends compete. Phoun
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -248,6 +262,8 @@ I really looked forward to seeing some of my old Portland friends compete. Phoun
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -262,6 +278,8 @@ I really looked forward to seeing some of my old Portland friends compete. Phoun
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">
@@ -276,6 +294,8 @@ I really looked forward to seeing some of my old Portland friends compete. Phoun
 			<span class="full-image">
 				<a href="#" class="image-close" onclick="return false">CLOSE</a>
 				<img src="images/test-full-size.jpg" />
+				<span class="blog-img-title">Title Goes Here</span>
+				<span class="blog-img-description">Phuong Tran, back in the heat of the action</span>
 			</span>
 
 			<span class="blog-img-title-holder">

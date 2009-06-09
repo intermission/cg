@@ -6,28 +6,12 @@
 			});
 			
 			//QuickNav Effect
-			$("a.quick-nav").hover(function () {
-				$('.quick-nav-open').slideDown();
-				$("a.quick-nav").css({
-					'padding-bottom' : '4px', 
-					'background-position' : '0px 16px'
-				})
-			});
-
 			$("a.quick-nav").click(function () {
-				$('.quick-nav-open').slideDown();
-				$("a.quick-nav").css({
-					'padding-bottom' : '4px', 
-					'background-position' : '0px 16px'
-				})
+				$('.quick-nav-open').slideToggle();
 			});
 
 			$("a.close").click(function () {
 				$('.quick-nav-open').slideUp();
-				$("a.quick-nav").css({
-					'padding-bottom' : '0px', 
-					'background-position' : '0px 0px'
-				})
 			});
 
 			$("a.advanced-search").click(function () {
