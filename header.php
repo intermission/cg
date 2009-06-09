@@ -24,6 +24,10 @@
 	<meta name="googlebot" content="index, follow" />
 
 	<link rel="stylesheet" type="text/css" href="css/style.css" />
+
+	<!--[if IE]>
+		<link rel="stylesheet" type="text/css" href="css/ie-hacks.css" />
+	<![endif]-->
 	
 	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
@@ -126,66 +130,75 @@
 			<?php /* --- Main Nav --- */ ?>
 		
 			<ul class="nav">
-				<li><a href="#" class="home-nav">Home</a></li>
-				<li><a href="#" class="articles-nav">Articles</a></li>
-				<li><a href="#" class="reviews-nav">Reviews</a></li>
-				<li><a href="#" class="guides-nav">Guides</a></li>
-				<li class="current"><a href="#" class="blog-nav">Blog</a></li>
-				<li><a href="#" class="community-nav">Community</a></li>
+				<li class="nav-one"><a href="#" class="home-nav">Home</a></li>
+				
+				<li class="nav-two"><a href="#" class="articles-nav">Articles</a>
+					<?php /* --- Sub Nav --- */ ?>
+					<ul class="sub-nav sub-articles">
+						<li><a href="#">Opinions</a></li>
+						<li><a href="#">State of Coffee</a></li>
+						<li><a href="#">Interviews</a></li>
+						<li><a href="#">Reports</a></li>
+						<li><a href="#">Lifestyle</a></li>
+						<li><a href="#">Media</a></li>
+						<li><a href="#">Archives</a></li>
+					</ul>	
+				</li>
+				
+				<li class="nav-three"><a href="#" class="reviews-nav">Reviews</a>
+					<?php /* --- Sub Nav --- */ ?>
+					<ul class="sub-nav sub-reviews">
+						<li><a href="#">Member Reviews</a></li>
+						<li><a href="#">CoffeeGeek Reviews</a></li>
+						<li><a href="#">QuickShot Reviews</a></li>
+						<li><a href="#">Submit Review</a></li>
+						<li><a href="#">Archives</a></li>
+					</ul>	
+				</li>
+				
+				<li class="nav-four"><a href="#" class="guides-nav">Guides</a>
+					<?php /* --- Sub Nav --- */ ?>
+					<ul class="sub-nav sub-guides">
+						<li><a href="#">How To's</a></li>
+						<li><a href="#">Guides</a></li>
+					</ul>	
+				</li>
+				
+				<li class="nav-five current"><a href="#" class="blog-nav">Blog</a>
+					<?php /* --- Sub Nav --- */ ?>
+					<ul class="sub-nav sub-blog sub-current">
+						<li><a href="#">Coffee News</a></li>
+						<li><a href="#">Coffee Reviews</a></li>
+						<li><a href="#">First Looks</a></li>
+						<li><a href="#">Events Calendar</a></li>
+					</ul>				
+				</li>
+				
+				<li class="nav-six"><a href="#" class="community-nav">Community</a>
+					<?php /* --- Sub Nav --- */ ?>
+					<ul class="sub-nav sub-community">
+						<li><a href="#">Forums</a></li>
+						<li><a href="#">Contributors</a></li>
+						<li><a href="#">Members</a></li>
+						<li><a href="#">Partners</a></li>
+						<li><a href="#">Groups</a></li>
+						<li><a href="#">Maps</a></li>
+						<li><a href="#">Resources</a></li>
+					</ul>	
+				</li>
+
 			</ul>
 
 			<div class="pageframe-top">
 
-				<?php /* --- Sub Nav --- */ ?>
-
-				<ul class="sub-nav sub-articles">
-					<li><a href="#">Opinions</a></li>
-					<li><a href="#">State of Coffee</a></li>
-					<li><a href="#">Interviews</a></li>
-					<li><a href="#">Reports</a></li>
-					<li><a href="#">Lifestyle</a></li>
-					<li><a href="#">Media</a></li>
-					<li><a href="#">Archives</a></li>
-				</ul>	
-
-				<ul class="sub-nav sub-reviews">
-					<li><a href="#">Member Reviews</a></li>
-					<li><a href="#">CoffeeGeek Reviews</a></li>
-					<li><a href="#">QuickShot Reviews</a></li>
-					<li><a href="#">Submit Review</a></li>
-					<li><a href="#">Archives</a></li>
-				</ul>	
-
-				<ul class="sub-nav sub-guides">
-					<li><a href="#">Guides</a></li>
-					<li><a href="#">How To's</a></li>
-				</ul>	
-
-				<ul class="sub-nav sub-blog">
-					<li><a href="#">Coffee News</a></li>
-					<li><a href="#">Coffee Reviews</a></li>
-					<li><a href="#">First Looks</a></li>
-					<li><a href="#">Events Calendar</a></li>
-				</ul>	
-
-				<ul class="sub-nav sub-community">
-					<li><a href="#">Forums</a></li>
-					<li><a href="#">Contributors</a></li>
-					<li><a href="#">Members</a></li>
-					<li><a href="#">Partners</a></li>
-					<li><a href="#">Groups</a></li>
-					<li><a href="#">Maps</a></li>
-					<li><a href="#">Resources</a></li>
-				</ul>	
-
 				<ul class="breadcrumb-header">
-					<li><a href=#>HOME</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>BLOG</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>COFFEE NEWS</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>WORLD BARISTA CHAMPIONSHIP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>ANOTHER LEVEL DEEP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>ANOTHER LEVEL DEEP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
-					<li><a href=#>CURRENT LEVEL</a></li>
+					<li><a href="#">HOME</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">BLOG</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">COFFEE NEWS</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">WORLD BARISTA CHAMPIONSHIP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">ANOTHER LEVEL DEEP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">ANOTHER LEVEL DEEP</a>&nbsp;&nbsp;>&nbsp;&nbsp;</li>
+					<li><a href="#">CURRENT LEVEL</a></li>
 				</ul>
 			</div>
 			

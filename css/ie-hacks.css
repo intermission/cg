@@ -1,0 +1,14 @@
+ul.sub-nav.sub-articles {
+	width: 540px;
+	left: 28px;
+}
+
+ul.sub-nav.sub-blog {
+	width: 415px;
+	left: -222px;
+}
+
+ul.sub-nav.sub-community {
+	width: 535px;
+	left: 40px;
+}

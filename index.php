@@ -5,6 +5,11 @@
 <?php /* --- START Loop --- */ ?>
 
 	<div class="blog-entry">
+		<div class="entry-date">
+			<span class="day"><img src="images/days/14.png" /></span>
+			<span class="month"><img src="images/months/jun.png" /></span>
+		</div>
+		
 		<h2>
 			<a href="#" class="blog-header">Barista Championship</a>
 		</h2>
@@ -172,28 +177,26 @@
 	<div class="pagination-holder">
 		<div class="pagination">
 			<h3>Pagination</h3>
-			<ul>
-				<li><a href="#" class="left-arrows">Previous</a></li>
-				<li><a href="#">1</a></li>
-				<li><a href="#">2</a></li>
-				<li><a href="#">3</a></li>
-				<li><a href="#">4</a></li>
-				<li><a href="#">5</a></li>
-				<li><a href="#" class="current">6</a></li>
-				<li><a href="#">7</a></li>
-				<li><a href="#">8</a></li>
-				<li><a href="#">9</a></li>
-				<li><a href="#">10</a></li>
-				<li><a href="#">11</a></li>
-				<li><a href="#">12</a></li>
-				<li><a href="#">13</a></li>
-				<li><a href="#">14</a></li>
-				<li><a href="#">15</a></li>
-				<li><a href="#">16</a></li>
-				<li><a href="#">17</a></li>
-				<li><a href="#">18</a></li>
-				<li><a href="#" class="right-arrows">Next</a></li>
-			</ul>
+				<ul>
+					<li><a href="#" title="Back 10 Pages" class="jump-prev-arrows">Previous 10 Pages</a></li>
+					<li><a href="#" title="Previous Page" class="left-arrows">Previous</a></li>
+					<li><a href="#">1</a></li>
+					<li><a href="#">2</a></li>
+					<li><a href="#">3</a></li>
+					<li><a href="#">4</a></li>
+					<li><a href="#">5</a></li>
+					<li><a href="#" class="current">6</a></li>
+					<li><a href="#">7</a></li>
+					<li><a href="#">8</a></li>
+					<li><a href="#">9</a></li>
+					<li><a href="#">10</a></li>
+					<li><a href="#">11</a></li>
+					<li><a href="#">12</a></li>
+					<li><a href="#">13</a></li>
+					<li><a href="#">14</a></li>
+					<li><a href="#" title="Next Page" class="right-arrows">Next</a></li>
+					<li><a href="#" title="Jump 10 Pages" class="jump-next-arrows">Next 10 Pages</a></li>
+				</ul>
 		</div>
 	</div>	
 
