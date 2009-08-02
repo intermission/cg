@@ -437,8 +437,8 @@ ul.sub-nav.sub-blog {
 ul.sub-nav.sub-community {
 	position: absolute;
 	top: 28px;
-	width: 516px;
-	left: 54px;
+	width: 525px;
+	left: 48px;
 	display: none;
 }
 /* END Sub-Navigation */
@@ -1305,34 +1305,41 @@ h1.featured-title {
 	background: url(../images/feature-title.png);
 }
 
-.features {
+ul.features {
+	position: relative;
+	float: left;
 	height: 296px;
 	margin-top: 29px;
 	border: 1px solid #fa212e;
 	width: 638px;
 }
 
-.features img {
+ul.features img {
 	position: absolute;
 	float: left;
 	width: 300px;
 	height: 296px;
+	z-index: 0;
+	top: 0px;
+	display: none;
 }
 
-.feature-one, .feature-two, .feature-three {
+ul.features li.current-feature img {
+	display: inline;
+}
+
+li.feature-one, li.feature-two, li.feature-three {
 	float: left;
 	width: 638px;
 }
 
-.feature-two {
-	background: #fce7e8;
-}
-
 a.feature-text {
+	position: relative;
 	float: right;
 	width: 321px;
 	height: 68px;
 	padding: 13px 7px 14px 10px;
+	z-index: 5000;
 }
 
 a.feature-text span {
@@ -1363,6 +1370,22 @@ a.feature-text span {
 .feature-two img, .feature-three img {
 	display: none;
 }
+
+ul.features li.current-feature {
+}
+
+
+li.feature-highlight {
+	position: absolute;
+	background: url(../images/feature-highlight.png) center bottom;
+	background-repeat: no-repeat;
+	height: 88px;
+	margin-top: 4px;
+	width: 364px;
+	left: 274px;
+	z-index: 1;
+}
+
 /* END Feature Content */
 
 /* START Recent News Slider */
@@ -1529,11 +1552,6 @@ h1.recommended-reading-title {
 	padding-top: 20px;
 }
 
-.media-slider img {
-	float: left;
-	margin: 5px 5px 0px 0px;
-}
-
 h1.media-title {
 	position: absolute;
 	text-indent: -99999px;
@@ -1560,11 +1578,12 @@ h1.media-title {
 	width: 640px;
 }
 
-.media-slider .wrapper {
-	padding-right: 10px;
-	float: left;
+.media-slider .stripViewer .panelContainer .panel .wrapper {
+	padding: 0px 10px 0px 10px;
+	float: right;
 	border-bottom: none;
-	width: 640px;
+	width: 400px;
+	cursor: pointer;
 }
 
 .media-slider .stripViewer { 
@@ -1612,16 +1631,187 @@ h1.media-title {
 	background: #dcc8b0;
 }
 
-.media-slider .wrapper span.slider-title {
-	color: #594833;
+a.media-text-ad {
+	float: left;
 }
 
-.media-slider .wrapper span.slider-excerpt, .media-slider .wrapper abbr {
+a.media-text-ad span {
+	float: left;
+	color: #594833;
+	padding: 0px 10px 0px 20px;
+}
+
+a:hover.media-text-ad span {
+	color: #241b16;
+}
+
+.media-slider .stripViewer .panelContainer .panel .wrapper.selected-podcast {
+	background: #DCC8B0;
+}
+
+a.media-text-ad span.media-ad-title {
+	font-weight: bold;
+	padding-top: 12px;
+}
+
+a.media-text-ad span.media-ad-title {
+	width: 600px;
+}
+
+.podcasts-holder {
+	float: right;
+	position: relative;
+	height: 206px;
+	width: 640px;
+	margin-top: 10px;
+}
+
+.media-slider .wrapper span.slider-title {
+	color: #594833;
+	padding: 5px 0px 0px 10px;
+	width: 400px;
+	float: right;
+}
+
+.media-slider .wrapper span.slider-excerpt {
 	color: #594833;
 	clear: none;
-	width: 245px;
+	width: 400px;
 	line-height: 14px;
+	float: right;
+	padding: 0px 0px 5px 10px;
 }
+
+.media-slider a.podcast-bottom-ad {
+	float: right;
+	position: absolute;
+	top: auto;
+	left: auto;
+	bottom: 0px;
+	right: 15px;
+	z-index: 1000;
+}
+
+.media-slider img.podcast-bottom-ad {
+	display: inline;
+	top: auto;
+	left: auto;
+	position: relative;
+	margin: 0px;
+}
+
+.podcast-footer {
+	float: left;
+	position: relative;
+	color: #5a4a34;
+	padding: 10px;
+}
+
+.podcast-footer p {
+	font-size: 10px;
+	color: #5a4a34;
+	float: left;
+}
+
+.podcast-footer a {
+	color: #5a4a34;
+}
+
+.podcast-footer a:hover {
+	color: #241B16;
+}
+
+a.podcast-feed {
+	font-family: Verdana, arial, sans-serif;
+	font-weight: bold;
+	float: left;
+	margin-right: 20px;
+}
+
+a.podcast-feed span.podcast-rss {
+	background: url(../images/podcast-rss.png);
+	width: 14px;
+	height: 14px;
+	float: left;
+	margin-right: 3px;
+}
+
+a.podcast-feed span.podcast-enhanced {
+	background: url(../images/podcast-enhanced.png);
+	width: 17px;
+	height: 14px;
+	float: left;
+	margin-right: 3px;
+}
+
+.podcasts-scroller {
+	width: 402px;
+	float: right;
+	position: relative;
+	height: 206px;
+}
+
+.stripViewer .panelContainer .panel ul.podcast-images {
+	position: relative;
+	float: left;
+	margin: 0px 0px 0px 20px;
+	width: 206px;
+	height: 206px;
+}
+
+.stripViewer .panelContainer .panel ul.podcast-images li img {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	display: none;
+}
+
+.stripViewer .panelContainer .panel ul.podcast-images li.selected-podcast img {
+	display: inline;
+}
+
+.stripViewer .panelContainer .panel ul.podcast-info {
+	position: relative;
+	float: left;
+	margin: 0px;
+}
+
+.podcasts-scroller ul.podcast-info li {
+	float: left;
+}
+
+.podcasts-holder a.next, .podcasts-holder a.prev {
+	position: absolute;
+	z-index: 5000;
+	background-position: 0px 0px;
+}
+
+.podcasts-holder a.prev {
+	top: -12px;
+	right: 0px;
+	width: 49px;
+	height: 10px;
+	float: left;
+	text-indent: -99999px;
+	background: url(../images/podcast-prev.png);
+}
+
+.podcasts-holder a.next {
+	bottom: 60px;
+	right: 0px;
+	width: 49px;
+	height: 10px;
+	float: left;
+	text-indent: -99999px;
+	background: url(../images/podcast-next.png);
+}
+
+.podcasts-holder a:hover.next, .podcasts-holder a:hover.prev {
+	position: absolute;
+	z-index: 5000;
+	background-position: 0px 10px;
+}
+
 /* END Media Slider */
 
 /* END Homepage */

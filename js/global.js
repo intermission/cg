@@ -133,4 +133,54 @@
 
 			});			
 
+
+			$("a.wrapper.podcast-01").mouseenter(function () {
+				$("a.wrapper.podcast-01").addClass("selected-podcast")
+				$("a.wrapper.podcast-02").removeClass("selected-podcast")
+				$("a.wrapper.podcast-03").removeClass("selected-podcast")
+				$("a.wrapper.podcast-04").removeClass("selected-podcast")
+
+				$(".podcast-images li.podcast-image-01").addClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-02").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-03").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-04").removeClass("selected-podcast")				
+			});
+
+			$("a.wrapper.podcast-02").mouseenter(function () {
+				$("a.wrapper.podcast-02").addClass("selected-podcast")
+				$("a.wrapper.podcast-01").removeClass("selected-podcast")
+				$("a.wrapper.podcast-03").removeClass("selected-podcast")
+				$("a.wrapper.podcast-04").removeClass("selected-podcast")
+
+				$(".podcast-images li.podcast-image-02").addClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-01").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-03").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-04").removeClass("selected-podcast")				
+			});
+
+			$("a.wrapper.podcast-03").mouseenter(function () {
+				$("a.wrapper.podcast-03").addClass("selected-podcast")
+				$("a.wrapper.podcast-02").removeClass("selected-podcast")
+				$("a.wrapper.podcast-01").removeClass("selected-podcast")
+				$("a.wrapper.podcast-04").removeClass("selected-podcast")
+
+				$(".podcast-images li.podcast-image-03").addClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-02").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-01").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-04").removeClass("selected-podcast")				
+			});
+
+			$("a.wrapper.podcast-04").mouseenter(function () {
+				$("a.wrapper.podcast-04").addClass("selected-podcast")
+				$("a.wrapper.podcast-01").removeClass("selected-podcast")
+				$("a.wrapper.podcast-03").removeClass("selected-podcast")
+				$("a.wrapper.podcast-02").removeClass("selected-podcast")
+
+				$(".podcast-images li.podcast-image-04").addClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-02").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-03").removeClass("selected-podcast")				
+				$(".podcast-images li.podcast-image-01").removeClass("selected-podcast")				
+			});
+
+
 		});

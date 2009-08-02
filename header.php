@@ -28,6 +28,10 @@
 	<!--[if IE]>
 		<link rel="stylesheet" type="text/css" href="css/ie-hacks.css" />
 	<![endif]-->
+
+	<!--[if IE 6]>
+		<link rel="stylesheet" type="text/css" href="css/ie6.css" />
+	<![endif]-->
 	
 	<script type="text/javascript" src="js/jquery-1.3.2.min.js"></script>
 	<script type="text/javascript" src="js/jquery.easing.min.js"></script>
